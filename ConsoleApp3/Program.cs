@@ -23,9 +23,8 @@ namespace ConsoleApp3
         /// Afternoon.
         /// </summary>
         /// <returns>A string  which contains Night, Morning or Afternoon.</returns>
-        public static string GetTimeOfDay()
+        public static string GetTimeOfDay(DateTime time)
         {
-            DateTime time = DateTime.Now;
 
             // It depends on time of date if morning, evening or afternoon is
             // returned.
