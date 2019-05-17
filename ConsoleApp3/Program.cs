@@ -6,7 +6,7 @@ namespace ConsoleApp3
     /// <summary>
     /// This class is written to learn best practices in unit testing.
     /// </summary>
-    class Program
+    public class Program
     {
 
         /// <summary>
